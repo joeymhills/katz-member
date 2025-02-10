@@ -1,0 +1,194 @@
+
+/* fonts.css */
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-ExtraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxieCopernicus';
+  src: url('../assets/fonts/GalaxieCopernicus-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolarisCondensed';
+  src: url('../assets/fonts/GalaxiePolarisCondensed-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GalaxiePolaris';
+  src: url('../assets/fonts/GalaxiePolaris-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
