@@ -62,7 +62,7 @@ const App: React.FC = () => {
   return (
     <>
     <div className="w-full absolute left-0 top-0 h-24 bg-[#1e55a9] z-50">
-      <img src="logo.svg" className="p-4 max-w-40"/>
+      <img href="http://northwell.edu/katz-institute-for-womens-health" src="logo.svg" className="p-4 max-w-40"/>
     </div>
 
     <div className="w-[305px] xs:w-[418px] sm:w-[575px] md:w-[700px] lg:w-[900px] mx-auto">
