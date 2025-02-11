@@ -65,13 +65,13 @@ const App: React.FC = () => {
       <img src="logo.svg" className="p-4 max-w-40"/>
     </div>
 
-    <div className="w-[418px] sm:w-[575px] md:w-[700px] lg:w-[900px] mx-auto">
-      <p style={{ fontFamily: "GalaxiePolaris"}} className='text-[#1e55a9] text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px] font-bold pt-24'>Member Achievements</p>
-      <p style={{ fontFamily: "GalaxieCopernicus"}} className='py-7 pb-12 text-[10px] sm:text-[12px] md:text-[14px] lg:text-[20px] font-bold'>Our members are recognized experts across the health care industry and beyond. We’re proud of the academic
+    <div className="w-[305px] xs:w-[418px] sm:w-[575px] md:w-[700px] lg:w-[900px] mx-auto">
+      <p style={{ fontFamily: "GalaxiePolaris"}} className='text-[#1e55a9] text-[25px] xs:text-[30px] sm:text-[35px] md:text-[40px] lg:text-[50px] font-bold pt-24'>Member Achievements</p>
+      <p style={{ fontFamily: "GalaxieCopernicus"}} className='py-2 sm:py-7 pb-12 text-[8px] xs:text-[10px] sm:text-[12px] md:text-[14px] lg:text-[20px] font-bold'>Our members are recognized experts across the health care industry and beyond. We’re proud of the academic
       contributions of the people who make up the Katz Institute. Below are selected honors from those members.</p>
     </div>
 
-    <div className="w-[418px] sm:w-[575px] md:w-[700px] lg:w-[900px] mx-auto">
+    <div className="w-[305px] xs:w-[418px] sm:w-[575px] md:w-[700px] lg:w-[900px] mx-auto">
       {/* Tab Buttons */}
       <div className="flex flex-row items-center justify-stretch gap-[1px] mb-[1px]">
         {tabs.length > 0 ? (
@@ -79,7 +79,7 @@ const App: React.FC = () => {
             <button
               style={{ fontFamily: "GalaxiePolaris"}}
               key={tab}
-              className={`flex flex-row w-full items-center justify-center font-bold text-white text-[7px] sm:text-[10px] lg:text-sm ${selectedTab === tab ? 'bg-[#359dde]' : 'bg-[#add7f2]'}`}
+              className={`flex flex-row w-full items-center justify-center font-bold text-white text-[5px] xs:text-[7px] sm:text-[10px] lg:text-sm ${selectedTab === tab ? 'bg-[#359dde]' : 'bg-[#add7f2]'}`}
               onClick={() => handleTabClick(tab)}
             >
               {tab}
@@ -96,17 +96,17 @@ const App: React.FC = () => {
           <table className="table-auto w-full border-collapse">
             <thead>
               <tr className='bg-[#1e55a9] border text-black'>
-                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[8px] sm:text-[12px] lg:text-sm w-52 px-4 py-2"><div className='text-white'>Member Name</div></th>
-                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[8px] sm:text-[12px] lg:text-sm px-2 py-2"><div className='text-white'>{selectedTab}</div></th>
+                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm w-52 px-4 py-1 sm:py-2"><div className='text-white'>Member Name</div></th>
+                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm px-2 py-1 sm:py-2"><div className='text-white'>{selectedTab}</div></th>
               </tr>
             </thead>
             <tbody>
               {selectedRows.map((row, index) => (
                 <tr className='text-sm text-start' key={index}>
-                  <td style={{ fontFamily: "GalaxieCopernicus"}} className="border text-[8px] sm:text-[12px] lg:text-sm text-left align-top font-bold px-2 py-2">
+                  <td style={{ fontFamily: "GalaxieCopernicus"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm text-left align-top font-bold px-2 py-2">
                     {row.Name}
                   </td>
-                  <td style={{ fontFamily: "GalaxieCopernicus"}} className="border text-[8px] sm:text-[12px] lg:text-sm text-sm px-2 py-2" dangerouslySetInnerHTML={{ __html: row[selectedTab]?.replace(/\n/g, '<br />') }} />
+                  <td style={{ fontFamily: "GalaxieCopernicus"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm text-sm px-2 py-2" dangerouslySetInnerHTML={{ __html: row[selectedTab]?.replace(/\n/g, '<br />') }} />
                 </tr>
               ))}
             </tbody>
