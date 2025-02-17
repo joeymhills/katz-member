@@ -96,8 +96,8 @@ const App: React.FC = () => {
           <table className="table-auto w-full border-collapse">
             <thead>
               <tr className='bg-[#1e55a9] border text-black'>
-                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm w-52 px-4 py-1 sm:py-2"><div className='text-white'>Member Name</div></th>
-                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm px-2 py-1 sm:py-2"><div className='text-white'>{selectedTab}</div></th>
+                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm lg:w-52 md:w-44 sm:w-12 p-1 sm:py-2"><div className='text-white'>Member Name</div></th>
+                <th style={{ fontFamily: "GalaxiePolaris"}} className="border text-[6px] xs:text-[8px] sm:text-[12px] lg:text-sm p-1 sm:py-2"><div className='text-white'>{selectedTab}</div></th>
               </tr>
             </thead>
             <tbody>
